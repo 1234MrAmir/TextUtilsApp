@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 
 export default function TextForm(props) {
+  
   const [text, setText] = useState("");
   // text = "New Text" // Wrong way to chaneg the state
   //setText('update the state') // wright wat to change the state
@@ -78,12 +79,12 @@ export default function TextForm(props) {
             style={{backgroundColor:props.mode === 'dark'?'rgb(0 72 129)':'white', color:props.mode==='dark'?'white':'#042743'}}
           ></textarea>
         </div>
-
+<div className="button-set"> 
        {/* upperCase Changer button */}
         <button
           type="button"
           onClick={handleUpclick}
-          className="btn btn-primary"
+          className="btn btn-primary UpperCase-btn" 
         >
           convert to upper Case
         </button>
@@ -92,7 +93,7 @@ export default function TextForm(props) {
         <button
           type="button"
           onClick={handleLowclick}
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 LowerCase-btn"
         >
           convert to Lower Case
         </button>
@@ -125,7 +126,7 @@ export default function TextForm(props) {
           Remove Extra Space
         </button>
 
-
+        </div>
       </div>
       <div className="container my-3" style={{color:props.mode==='dark'?'white':'#042743'}}>
         <h2>Text Summary</h2>
