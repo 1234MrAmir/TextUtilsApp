@@ -1,0 +1,19 @@
+/* .nabvar-background{padding: 20px 0px;} */
+.color-picker{padding: 0px 12px 0px 0px;display: flex;align-items: center;height: 60px;width: 200px;    height: 60px;width: 133px;}
+.color-picker .color-one:hover .inner-color-one:hover,
+.color-picker .color-two .inner-color-two:hover,
+.color-picker .color-three .inner-color-three:hover{width: 35px;height: 35px;cursor: pointer;}
+.color-picker .color-one,
+.color-picker .color-two,
+.color-picker .color-three{height: 40px;width: 40px;display: flex;align-items: center;}
+.color-picker .color-one .inner-color-one{background-color: #5d2a2a;}
+.color-picker .color-two .inner-color-two{background-color: #a98212;}
+.color-picker .color-three .inner-color-three{background-color: #19726f;}
+.color-picker .color-one .inner-color-one,
+.color-picker .color-two .inner-color-two,
+.color-picker .color-three .inner-color-three{border: 1px solid black;height: 30px;width: 30px;border-radius: 50%;margin-inline: 3px;transition: .4s ease-in-out;}
+.mainBackground-1{background-color:#5d2a2a ;}
+.mainBackground-2{background-color:#a98212 ;}
+.mainBackground-3{background-color:#19726f ;}
+.class-1{background-color: #042743;}
+.class-2{background-color: white;}
